@@ -1,5 +1,6 @@
 #include "pa3d.c"
 #include <stdlib.h>
+#include <time.h>
 
 
 // Car 1 enters EAST, car 3 comes to the EAST before car 1 exits, so car 3
@@ -262,10 +263,29 @@ void test11() {
   driveRoad(EAST, 50);
 }
 
+// Run forever. Test if it ever crashes
+void test12() {
+  int from, speed;
 
-#define NUMTESTS 11
+  // Set random seed
+  srand(time(NULL));
+
+  while (1) {
+    if (Fork() == 0) {
+      from = (rand() % 2) == 0 ? WEST : EAST;
+      speed = rand() % 101 + 10;  // Random speed from 10 to 100
+      driveRoad(from, speed);
+      Exit();
+    }
+    // New car randomly every 100-1999
+    Delay(rand() % 1900 + 100);
+  }
+}
+
+
+#define NUMTESTS 12
 void (*tests[])() = {test1, test2, test3, test4, test5, test6, test7, test8,
-test9, test10, test11};
+test9, test10, test11, test12};
 
 void Main(int argc, char* argv[]) {
   if (argc < 2) {
