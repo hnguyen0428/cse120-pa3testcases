@@ -1,4 +1,4 @@
-Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 11821
+Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 17448
 
 Running test 6
 
@@ -30,15 +30,15 @@ W42--------E Car 4 enters at 1 at 50 mph
 W4-2-------E Car 2 moves from 2 to 3
 W-42-------E Car 4 moves from 1 to 2
 W-4-2------E Car 2 moves from 3 to 4
-W-4--2-----E Car 2 moves from 4 to 5
-W--4-2-----E Car 4 moves from 2 to 3
-W--4--2----E Car 2 moves from 5 to 6
-W---4-2----E Car 4 moves from 3 to 4
+W--42------E Car 4 moves from 2 to 3
+W--4-2-----E Car 2 moves from 4 to 5
+W---42-----E Car 4 moves from 3 to 4
+W---4-2----E Car 2 moves from 5 to 6
 W---4--2---E Car 2 moves from 6 to 7
 W----4-2---E Car 4 moves from 4 to 5
 W----4--2--E Car 2 moves from 7 to 8
-W----4---2-E Car 2 moves from 8 to 9
-W-----4--2-E Car 4 moves from 5 to 6
+W-----4-2--E Car 4 moves from 5 to 6
+W-----4--2-E Car 2 moves from 8 to 9
 W------4-2-E Car 4 moves from 6 to 7
 W------4--2E Car 2 moves from 9 to 10
 W-------4-2E Car 4 moves from 7 to 8

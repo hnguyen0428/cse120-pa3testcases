@@ -16,3 +16,10 @@ Note:
 Running test 12 will run the program forever (until ieng9 gives an Exceeded max time limit error). This test is
 useful for seeing if any crash or deadlock would happen at all. It essentially spawns car randomly with random delay
 and just keeps running until you quit the program.
+
+To run all the tests (except test 12) and save your results.
+
+    chmod +x runAll.sh
+    ./runAll.sh
+    
+Program outputs will be saved to <test number>.OUTPUT

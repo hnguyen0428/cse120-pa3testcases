@@ -1,4 +1,4 @@
-Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 11307
+Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 18199
 
 Running test 8
 
@@ -63,18 +63,18 @@ W--6-54----E Car 5 moves from 4 to 5
 W---654----E Car 6 moves from 3 to 4
 W---65-4---E Car 4 moves from 6 to 7
 W---6-54---E Car 5 moves from 5 to 6
-W---6-5-4--E Car 4 moves from 7 to 8
-W---6--54--E Car 5 moves from 6 to 7
-W----6-54--E Car 6 moves from 4 to 5
-W----6-5-4-E Car 4 moves from 8 to 9
-W----6--54-E Car 5 moves from 7 to 8
-W-----6-54-E Car 6 moves from 5 to 6
-W-----6-5-4E Car 4 moves from 9 to 10
-W-----6--54E Car 5 moves from 8 to 9
-W------6-54E Car 6 moves from 6 to 7
+W----654---E Car 6 moves from 4 to 5
+W----65-4--E Car 4 moves from 7 to 8
+W----6-54--E Car 5 moves from 6 to 7
+W-----654--E Car 6 moves from 5 to 6
+W-----65-4-E Car 4 moves from 8 to 9
+W-----6-54-E Car 5 moves from 7 to 8
+W------654-E Car 6 moves from 6 to 7
+W------65-4E Car 4 moves from 9 to 10
+W------6-54E Car 5 moves from 8 to 9
 W------6-5-E Car 4 exits road
-W------6--5E Car 5 moves from 9 to 10
-W-------6-5E Car 6 moves from 7 to 8
+W-------65-E Car 6 moves from 7 to 8
+W-------6-5E Car 5 moves from 9 to 10
 W-------6--E Car 5 exits road
 W--------6-E Car 6 moves from 8 to 9
 W---------6E Car 6 moves from 9 to 10
