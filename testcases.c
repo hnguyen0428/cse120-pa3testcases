@@ -115,11 +115,11 @@ void test5() {
 
 // Tests Rule C1, car 2 should not enter when car 1 is in spot 1
 // Car 1 and 2 come in from the WEST at the same time (Car 1 will enter first). 
-// Car 3 then comes in a moment later from the EAST (should be before car 1 
-// exits the road). Car 4 comes from the WEST after car 3.
-// Output: Car 1 should go first, then car 2 will follow right after. Car 3
-// will go once car 2 exits the road then car 4 will go once car 3 exits the
-// road
+// Car 1 will enter the road. Car 2 will try to enter the road but cannot b/c
+// car 1 has the first spot. When car 1 moves to the 2nd spot, car 3 has
+// arrived, so car 2 now has to wait for car 3 to come from the other side
+// before it could enter the road. Once car 3 finishes, car 2 will enter the
+// road followed by car 4
 void test6() {
   if (Fork () == 0) {
     // car 2
@@ -273,7 +273,7 @@ void test12() {
   while (1) {
     if (Fork() == 0) {
       from = (rand() % 2) == 0 ? WEST : EAST;
-      speed = rand() % 91 + 10;  // Random speed from 10 to 100
+      speed = rand() % 91 + 30; // Random speed from 10 to 100
       driveRoad(from, speed);
       Exit();
     }
