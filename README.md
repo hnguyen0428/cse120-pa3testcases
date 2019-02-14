@@ -22,4 +22,4 @@ To run all the tests (except test 12) and save your results.
     chmod +x runAll.sh
     ./runAll.sh
     
-Program outputs will be saved to <test number>.OUTPUT
+Program outputs will be saved to \<test number\>.OUTPUT
