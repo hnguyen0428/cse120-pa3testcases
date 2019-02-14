@@ -10,3 +10,9 @@ Compile:
 And then to run:
 
     ./runTests <test number>
+    
+ 
+Note:
+Running test 12 will run the program forever (until the ieng9 gives an Exceeded max time limit error). This test is
+useful for seeing if any crash or deadlock would happen at all. It essentially spawns car randomly with random delay
+and just keeps running until you quit the program.
