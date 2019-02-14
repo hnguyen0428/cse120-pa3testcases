@@ -273,7 +273,7 @@ void test12() {
   while (1) {
     if (Fork() == 0) {
       from = (rand() % 2) == 0 ? WEST : EAST;
-      speed = rand() % 101 + 10;  // Random speed from 10 to 100
+      speed = rand() % 91 + 10;  // Random speed from 10 to 100
       driveRoad(from, speed);
       Exit();
     }
