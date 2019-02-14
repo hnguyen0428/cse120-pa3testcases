@@ -1,0 +1,117 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 7963
+
+Running test 4
+
+W1---------E Car 1 enters at 1 at 10 mph
+W-1--------E Car 1 moves from 1 to 2
+W21--------E Car 2 enters at 1 at 20 mph
+W2-1-------E Car 1 moves from 2 to 3
+W-21-------E Car 2 moves from 1 to 2
+W321-------E Car 3 enters at 1 at 30 mph
+W32-1------E Car 1 moves from 3 to 4
+W3-21------E Car 2 moves from 2 to 3
+W-321------E Car 3 moves from 1 to 2
+W4321------E Car 4 enters at 1 at 40 mph
+W432-1-----E Car 1 moves from 4 to 5
+W43-21-----E Car 2 moves from 3 to 4
+W4-321-----E Car 3 moves from 2 to 3
+W-4321-----E Car 4 moves from 1 to 2
+W54321-----E Car 5 enters at 1 at 50 mph
+W5432-1----E Car 1 moves from 5 to 6
+W543-21----E Car 2 moves from 4 to 5
+W54-321----E Car 3 moves from 3 to 4
+W5-4321----E Car 4 moves from 2 to 3
+W-54321----E Car 5 moves from 1 to 2
+W654321----E Car 6 enters at 1 at 60 mph
+W65432-1---E Car 1 moves from 6 to 7
+W6543-21---E Car 2 moves from 5 to 6
+W654-321---E Car 3 moves from 4 to 5
+W65-4321---E Car 4 moves from 3 to 4
+W6-54321---E Car 5 moves from 2 to 3
+W-654321---E Car 6 moves from 1 to 2
+W7654321---E Car 7 enters at 1 at 70 mph
+W765432-1--E Car 1 moves from 7 to 8
+W76543-21--E Car 2 moves from 6 to 7
+W7654-321--E Car 3 moves from 5 to 6
+W765-4321--E Car 4 moves from 4 to 5
+W76-54321--E Car 5 moves from 3 to 4
+W7-654321--E Car 6 moves from 2 to 3
+W-7654321--E Car 7 moves from 1 to 2
+W87654321--E Car 8 enters at 1 at 80 mph
+W8765432-1-E Car 1 moves from 8 to 9
+W876543-21-E Car 2 moves from 7 to 8
+W87654-321-E Car 3 moves from 6 to 7
+W8765-4321-E Car 4 moves from 5 to 6
+W876-54321-E Car 5 moves from 4 to 5
+W87-654321-E Car 6 moves from 3 to 4
+W8-7654321-E Car 7 moves from 2 to 3
+W-87654321-E Car 8 moves from 1 to 2
+W987654321-E Car 9 enters at 1 at 90 mph
+W98765432-1E Car 1 moves from 9 to 10
+W9876543-21E Car 2 moves from 8 to 9
+W987654-321E Car 3 moves from 7 to 8
+W98765-4321E Car 4 moves from 6 to 7
+W9876-54321E Car 5 moves from 5 to 6
+W987-654321E Car 6 moves from 4 to 5
+W98-7654321E Car 7 moves from 3 to 4
+W9-87654321E Car 8 moves from 2 to 3
+W-987654321E Car 9 moves from 1 to 2
+W10987654321E Car 10 enters at 1 at 100 mph
+W1098765432-E Car 1 exits road
+W109876543-2E Car 2 moves from 9 to 10
+W10987654-32E Car 3 moves from 8 to 9
+W1098765-432E Car 4 moves from 7 to 8
+W109876-5432E Car 5 moves from 6 to 7
+W10987-65432E Car 6 moves from 5 to 6
+W1098-765432E Car 7 moves from 4 to 5
+W109-8765432E Car 8 moves from 3 to 4
+W10-98765432E Car 9 moves from 2 to 3
+W-1098765432E Car 10 moves from 1 to 2
+W-109876543-E Car 2 exits road
+W-10987654-3E Car 3 moves from 9 to 10
+W-1098765-43E Car 4 moves from 8 to 9
+W-109876-543E Car 5 moves from 7 to 8
+W-10987-6543E Car 6 moves from 6 to 7
+W-1098-76543E Car 7 moves from 5 to 6
+W-109-876543E Car 8 moves from 4 to 5
+W-10-9876543E Car 9 moves from 3 to 4
+W--109876543E Car 10 moves from 2 to 3
+W--10987654-E Car 3 exits road
+W--1098765-4E Car 4 moves from 9 to 10
+W--109876-54E Car 5 moves from 8 to 9
+W--10987-654E Car 6 moves from 7 to 8
+W--1098-7654E Car 7 moves from 6 to 7
+W--109-87654E Car 8 moves from 5 to 6
+W--10-987654E Car 9 moves from 4 to 5
+W---10987654E Car 10 moves from 3 to 4
+W---1098765-E Car 4 exits road
+W---109876-5E Car 5 moves from 9 to 10
+W---10987-65E Car 6 moves from 8 to 9
+W---1098-765E Car 7 moves from 7 to 8
+W---109-8765E Car 8 moves from 6 to 7
+W---10-98765E Car 9 moves from 5 to 6
+W----1098765E Car 10 moves from 4 to 5
+W----109876-E Car 5 exits road
+W----10987-6E Car 6 moves from 9 to 10
+W----1098-76E Car 7 moves from 8 to 9
+W----109-876E Car 8 moves from 7 to 8
+W----10-9876E Car 9 moves from 6 to 7
+W-----109876E Car 10 moves from 5 to 6
+W-----10987-E Car 6 exits road
+W-----1098-7E Car 7 moves from 9 to 10
+W-----109-87E Car 8 moves from 8 to 9
+W-----10-987E Car 9 moves from 7 to 8
+W------10987E Car 10 moves from 6 to 7
+W------1098-E Car 7 exits road
+W------109-8E Car 8 moves from 9 to 10
+W------10-98E Car 9 moves from 8 to 9
+W-------1098E Car 10 moves from 7 to 8
+W-------109-E Car 8 exits road
+W-------10-9E Car 9 moves from 9 to 10
+W--------109E Car 10 moves from 8 to 9
+W--------10-E Car 9 exits road
+W---------10E Car 10 moves from 9 to 10
+W----------E Car 10 exits road
+Road Trace: >>>>>>>>>>||||||||||
+
+System exiting (normal)
